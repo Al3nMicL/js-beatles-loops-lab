@@ -20,3 +20,13 @@ let johnLennonFacts = (factsArr) => {
 	}
 	return k;
 };
+
+// iLoveTheBeatles
+let iLoveTheBeatles = (num) => {
+	let k = [];
+	do {
+		k.push(`I love the Beatles!`);
+		num++;
+	} while (num < 15);
+	return k;
+};
